@@ -1,0 +1,30 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.parent>div{
+	border: 8px solid #ddd;
+	margin: 8%;
+	padding: 8% ;
+	border-color: pink;
+	box-shadow: 8px 8px 8px black;
+}
+.parent>div>img{
+	display: block;
+	margin: 1% auto;
+	width: 200px;
+	height: auto;
+	border: 1px dotted #ddd;
+	border-radius: 50%;
+}
+h2{
+	text-align: center;
+	color: blue;
+}
+a{
+	background: #1B1C92;
+	text-align: center;color: #fff;
+	padding: 3%;
+	text-decoration: none;
+}
